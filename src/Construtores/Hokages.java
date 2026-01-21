@@ -1,6 +1,6 @@
 package Construtores;
 
-public class Hokages {
+public abstract class Hokages {
 
 
     //Argumentos
@@ -11,6 +11,9 @@ public class Hokages {
     int missoes;
     double saldoBancario;
     double altura;
+
+    //Metodo abstrato
+    public abstract void sabedoriaHokage ();
 
     public Hokages() {
         //Construtor vazio, sem argumentos
@@ -47,4 +50,6 @@ public class Hokages {
         this.idade = idade;
         this.altura = altura;
     }
+
+
 }
